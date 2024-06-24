@@ -1,0 +1,23 @@
+POST http://localhost:3001/register
+Content-Type: application/json
+
+{
+    "username":"madhubabu",
+    "name":"madhu",
+    "email":"madhu555@gmail.com",
+    "password":"madhu@2024"
+}
+
+###
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "username":"veerababu",
+    "password":"veeru@2024"
+}
+
+###
+
+GET http://localhost:3001/persons
